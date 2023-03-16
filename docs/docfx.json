@@ -6,20 +6,10 @@
           "files": [
             "Bonsai.ZeroMQ/Bonsai.ZeroMQ.csproj"
           ],
-          "src": "../src",
-          "exclude": [
-            "**/bin/**",
-            "**/obj/**",
-            "**/**.Tests/**",
-            "**/Bonsai.NuGet**/**",
-            "**/Bonsai.Configuration/**",
-            "**/Bonsai.StarterPack**/**",
-            "**/Bonsai.Templates/**"
-          ]
+          "src": "../src"
         }
       ],
       "dest": "api",
-      "filter": "filter.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "filter": "filter.yml"
@@ -53,7 +43,6 @@
         "files": [
           "logo.svg",
           "favicon.ico",
-          "editor/index.html",
           "images/**",
           "workflows/**"
         ]
@@ -76,9 +65,8 @@
       "_appFooter": "&copy; 2024 Bonsai Foundation CIC and Contributors. Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a>",
       "_enableNewTab": true,
       "_gitContribute": {
-        "repo": "https://github.com/bonsai-rx/zeromq",
         "branch": "main",
-        "apiSpecFolder": "apidoc"
+        "apiSpecFolder": "docs/apidoc"
       }
     },
     "dest": "_site",
@@ -104,9 +92,7 @@
     "disableGitFeatures": false,
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
     "xref": [
-      "https://horizongir.github.io/opencv.net/xrefmap.yml",
-      "https://horizongir.github.io/ZedGraph/xrefmap.yml",
-      "https://horizongir.github.io/opentk/xrefmap.yml",
+      "https://bonsai-rx.org/docs/xrefmap.yml",
       "https://horizongir.github.io/reactive/xrefmap.yml"
     ]
   }
